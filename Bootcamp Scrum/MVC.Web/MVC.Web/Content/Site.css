@@ -1,0 +1,80 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.col-md-9.movie_box {
+    margin-bottom: 2em;
+}
+
+.grid_7, .grid_4, .content_right, .content_right-box, .grid_5, .m_6, .movie_box, .login-left, .login-right {
+    padding: 0;
+}
+
+.images_3_of_2 {
+    width: 37.2%;
+    float: left;
+    margin-right: 2.6%;
+}
+
+.images_3_of_2 {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+}
+
+.images_3_of_2 {
+    width: 37.2%;
+    float: left;
+    margin-right: 2.6%;
+}
+
+p.movie_option {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+    p.movie_option a {
+        color: #555;
+    }
+
+.down_btn {
+    margin-top: 3em;
+}
+
+.btn1 {
+    padding: 12px 20px;
+    outline: none;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #d8232a;
+}
+
+
+a.btn1:hover {
+    background: #3f444e;
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Web", "MVC.Web\MVC.Web.csproj", "{0F24862F-7442-4B97-9464-632372F58531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Entities", "MVC.Entities\MVC.Entities.csproj", "{6EE6C485-E01D-4752-A06E-CFE28B8DA03C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Data", "MVC.Data\MVC.Data.csproj", "{C0CDC57C-1712-4017-8980-525866A249D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Services", "MVC.Services\MVC.Services.csproj", "{F9151ED4-87E2-474C-9953-777F42483043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.MVC.Data", "Test.MVC.Data\Test.MVC.Data.csproj", "{424DE4A7-253C-47EF-86D2-FCFEB347CD63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F24862F-7442-4B97-9464-632372F58531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F24862F-7442-4B97-9464-632372F58531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F24862F-7442-4B97-9464-632372F58531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F24862F-7442-4B97-9464-632372F58531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE6C485-E01D-4752-A06E-CFE28B8DA03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE6C485-E01D-4752-A06E-CFE28B8DA03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE6C485-E01D-4752-A06E-CFE28B8DA03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE6C485-E01D-4752-A06E-CFE28B8DA03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0CDC57C-1712-4017-8980-525866A249D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CDC57C-1712-4017-8980-525866A249D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CDC57C-1712-4017-8980-525866A249D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CDC57C-1712-4017-8980-525866A249D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9151ED4-87E2-474C-9953-777F42483043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9151ED4-87E2-474C-9953-777F42483043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9151ED4-87E2-474C-9953-777F42483043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9151ED4-87E2-474C-9953-777F42483043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424DE4A7-253C-47EF-86D2-FCFEB347CD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424DE4A7-253C-47EF-86D2-FCFEB347CD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424DE4A7-253C-47EF-86D2-FCFEB347CD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424DE4A7-253C-47EF-86D2-FCFEB347CD63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://shutupmeg.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MVC.Web\\MVC.Web.csproj
+		SccProjectName1 = MVC.Web
+		SccLocalPath1 = MVC.Web
+		SccProjectUniqueName2 = MVC.Entities\\MVC.Entities.csproj
+		SccProjectName2 = MVC.Entities
+		SccLocalPath2 = MVC.Entities
+		SccProjectUniqueName3 = MVC.Data\\MVC.Data.csproj
+		SccProjectName3 = MVC.Data
+		SccLocalPath3 = MVC.Data
+		SccProjectUniqueName4 = MVC.Services\\MVC.Services.csproj
+		SccProjectName4 = MVC.Services
+		SccLocalPath4 = MVC.Services
+		SccProjectUniqueName5 = Test.MVC.Data\\Test.MVC.Data.csproj
+		SccProjectName5 = Test.MVC.Data
+		SccLocalPath5 = Test.MVC.Data
+	EndGlobalSection
+EndGlobal

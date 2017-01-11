@@ -1,0 +1,14 @@
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\bin\Debug\MVC.Entities.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\bin\Debug\MVC.Entities.pdb
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\obj\Debug\MVC.Entities.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\obj\Debug\MVC.Entities.pdb
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Entities\obj\Debug\MVC.Entities.csprojResolveAssemblyReference.cache

@@ -1,0 +1,16 @@
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\Test.MVC.Data.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\Test.MVC.Data.pdb
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\EntityFramework.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\MVC.Data.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\MVC.Entities.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\MVC.Services.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\MVC.Data.pdb
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\MVC.Entities.pdb
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\MVC.Services.pdb
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\obj\Debug\Test.MVC.Data.csprojResolveAssemblyReference.cache
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\obj\Debug\Test.MVC.Data.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\obj\Debug\Test.MVC.Data.pdb
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\EntityFramework.xml
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\Test.MVC.Data\bin\Debug\EntityFramework.SqlServer.xml

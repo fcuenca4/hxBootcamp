@@ -1,0 +1,12 @@
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\bin\Debug\MVC.Data.dll.config
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\bin\Debug\MVC.Data.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\bin\Debug\MVC.Data.pdb
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\bin\Debug\EntityFramework.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\bin\Debug\MVC.Entities.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\bin\Debug\MVC.Entities.pdb
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\bin\Debug\EntityFramework.xml
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\obj\Debug\MVC.Data.csprojResolveAssemblyReference.cache
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\obj\Debug\MVC.Data.dll
+C:\Users\frcue\Desktop\Bootcamp\Bootcamp Scrum\MVC.Web\MVC.Data\obj\Debug\MVC.Data.pdb

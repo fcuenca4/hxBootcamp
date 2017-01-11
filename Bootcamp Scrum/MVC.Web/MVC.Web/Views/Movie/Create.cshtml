@@ -1,0 +1,106 @@
+﻿@model MVC.Web.Models.Movie.MovieVM
+@{
+    ViewBag.Title = "Add a Movie";
+}
+@if (!ViewBag.ErrorMessage.Equals(""))
+    {
+<label>@ViewBag.ErrorMessage</label>
+<br />
+    }
+@if(Model.Genres.Count() == 0)
+{
+    <label>There isn't genres added. Movies cannot be created without them.</label>
+}
+else
+{
+    <table>
+        <tr>
+            <td class="col-sm-2">
+                @using (Html.BeginForm("Create", "Movie", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+                        <h4>Add a new Movie giving the information required next.</h4>
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.TextAreaFor(model => model.Description, new { @class = "form-control", rows = "5" })
+                                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Duration, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Duration, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Duration, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group input-group-sm">
+                            @Html.LabelFor(model => model.ReleaseDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.ReleaseDate.Date, new { htmlAttributes = new { @class = "form-control datepicker" } })
+                                @Html.ValidationMessageFor(model => model.ReleaseDate.Date, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group input-group-sm">
+                            @Html.LabelFor(model => model.Genres, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @for (int i = 0; i < Model.Genres.Count(); i++)
+                                {
+                                    @Html.CheckBoxFor(Model => Model.Genres[i].isSelected)
+                                    @Html.HiddenFor(x => x.Genres[i].Id)
+                                    @Html.HiddenFor(x => x.Genres[i].Name)
+                                    @Html.Label(Model.Genres[i].Name, new { @class = "" })
+                                }
+                                <br />
+                            </div>
+                        </div>
+                        <div class="form-group input-group-sm">
+                            @Html.LabelFor(model => model.Actors, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                <div id="actorsList">
+                                </div>
+                                <br />
+                                <button id="button_add_another" onclick="button_autocomplete(); return false;">Add</button>
+                                @Html.ValidationMessageFor(model => model.Actors, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                <input type="file" id="ImageInput" name="ImageInput" value="Upload Image" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Create" class="btn btn-default" />
+                            </div>
+                        </div>
+
+                    </div>
+                }
+            </td>
+            <td class="col-sm-2">
+                <div>
+                    <img id="Image" src="" height="400" width="400" />
+                </div>
+            </td>
+        </tr>
+    </table>
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+        @Scripts.Render("~/bundles/Movies")
+    }
+}

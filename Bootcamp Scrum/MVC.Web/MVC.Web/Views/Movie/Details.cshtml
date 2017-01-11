@@ -1,0 +1,55 @@
+﻿@model MVC.Web.Models.Movie.MovieVM
+
+@{
+    ViewBag.Title =  Model.Name;
+}
+
+<h2>Details of @Model.Name</h2>
+
+
+<div class="grid images_3_of_2">
+    <div class="movie_image">
+        <img src="~/Content/Images/@Model.Image" class="img-responsive" alt="" />
+    </div>
+    <div class="movie_rate">
+        <div class="down_btn">
+            <a href="@Url.Action("Edit", "Movie", new { id = Model.Id })" class="btn btn-danger">
+                <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                Edit
+            </a>
+        </div>
+        <div class="down_btn">
+            <a href="@Url.Action("Delete", "Movie", new { id = Model.Id })" class="btn btn-danger">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                Delete
+            </a>
+        </div>
+
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<div class="desc1 span_3_of_2">
+    <p class="movie_option">
+        <strong>@Html.DisplayNameFor(model => model.Genres): </strong>
+        @foreach (var genre in Model.Genres)
+        {
+            @Html.ActionLink(genre.Name, "Details", "Genre", new { id = genre.Id }, null);
+            @(", ")
+        }
+    </p>
+    <p class="movie_option"><strong>@Html.DisplayNameFor(model => model.ReleaseDate): </strong>@Html.DisplayFor(model => model.ReleaseDate.Date)</p>
+    <p class="movie_option">
+        <strong>@Html.DisplayNameFor(model => model.Actors): </strong>
+        @foreach (var actor in Model.Actors)
+        {
+            @Html.ActionLink(actor.Name, "Details", "Actor", new { id = actor.Id }, null);
+            @(", ")
+        }
+    </p>
+    <p class="movie_option"><strong>@Html.DisplayNameFor(model => model.Description): </strong>@Html.DisplayFor(model => model.Description)</p>
+
+</div>
+
+
+
+

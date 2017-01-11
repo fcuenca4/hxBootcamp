@@ -1,0 +1,29 @@
+﻿@model MVC.Web.Models.Genre.GenreVM
+
+@{
+    ViewBag.Title = "Details of the Genre";
+}
+<div>
+    <h4>A list of the movies of @Model.Name genre is present. The actions taked over the genre doesn't apply to the movies.</h4>
+
+    @if (Model.Movies == null || Model.Movies.Count == 0)
+    {
+        <div>There isn't movies to show.</div>
+    }
+    else
+    {
+        <div>
+            <table>
+                <tr><td>Movies of @Model.Name genre</td></tr>
+                @foreach (var movie in Model.Movies)
+                {
+                    <tr><td>@Html.ActionLink(movie.Name, "Details", "Movie", new { id = movie.Id }, null)</td></tr>
+                }
+            </table>
+            <hr />
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn1" })
+            @Html.ActionLink("Delete", "Delete", new { id = Model.Id }, new { @class = "btn1" })
+            <hr />
+        </div>
+    }
+</div>

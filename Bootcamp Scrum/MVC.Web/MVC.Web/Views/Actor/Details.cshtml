@@ -1,0 +1,32 @@
+﻿@model MVC.Web.Models.Actor.ActorVM
+
+@{
+    ViewBag.Title = "Details of " + @Model.Name;
+}
+<div>
+    <h4>Details of @Html.DisplayFor(model => model.Name) and the registered movies where appear</h4>
+    
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UrlBiography)
+        </dt>
+        <dd>
+            <a href="@Model.UrlBiography">@Html.DisplayFor(model => model.UrlBiography)</a>
+        </dd>
+    </dl>
+    <table>
+        <tr>
+            <td>Movies were appear</td>
+        </tr>
+        @foreach (MVC.Web.Models.Movie.MovieVM movie in Model.Movies)
+        {
+            <tr>
+                <td>@Html.ActionLink(movie.Name, "Details", "Movie", new { id = movie.Id }, null)</td>
+            </tr>
+        }
+    </table>
+    <hr />
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-danger" })
+    @Html.ActionLink("Delete", "Delete", new { id = Model.Id }, new { @class = "btn btn-danger" })
+    <hr />
+</div>

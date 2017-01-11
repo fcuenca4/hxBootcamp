@@ -1,0 +1,47 @@
+﻿@model MVC.Web.Models.Genre.CreateGenreVM
+@{
+    ViewBag.Title = "Add a new Genre";
+}
+<div id="Genres" class="">
+    @if (Model.allGenres == null || Model.allGenres.Count() == 0)
+    {
+        <label>There isn't genres to show.</label>
+    }
+    else
+    {
+        <label>Genres added.</label>
+        <ul>
+            @foreach (var g in Model.allGenres)
+                {
+                <li>@Html.ActionLink(g.Name, "Details", new { id = g.Id })</li>
+            }
+        </ul>
+    }
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Add a new Genre giving the name.</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.newGenre.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.newGenre.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.newGenre.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
